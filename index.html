@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="app.js"></script>
+    <title>Happy halloween</title>
+  </head>
+  <body>
+    <!-- main card -->
+    <main class="card" onclick="flipCard()">
+      <!-- front side conent -->
+      <section class="cardFace">
+        <!-- front side content -->
+        <h1 class="headline">Happy Halloween!</h1>
+        <img
+          class="card-image"
+          alt="spooky cat with pumpkins"
+          src="./img/halloween-7521772_1280.jpg"
+        />
+      </section>
+
+      <!-- back side of the card -->
+      <section class="back cardFace">
+        <!-- back side content -->
+        <h2 class="headline">Süßes oder Saures!</h2>
+        <p class="customMessage" id="custom-message">
+          Nimm dich in Acht vor Geistern und Kobolden, während du die
+          gruseligste Nacht des Jahres feierst.
+        </p>
+      </section>
+    </main>
+
+    <div class="custom">
+      <!-- input user-message -->
+      <aside>
+        <input
+          type="text"
+          id="message-input"
+          placeholder="Deine Halloween-Nachricht..."
+          maxlength="120"
+          pattern="[A-Za-zÄäÖöÜüß\s]+"
+        />
+        <button onclick="addMessage()">persönliche Nachricht hinzufügen</button>
+      <p id="userFeedback" class="userInfo">Verwende nur Buchstaben und Leerzeichen für deine Nachricht.</p>
+      </aside>
+      <!-- link to share the e-card -->
+      <aside>
+        <button onClick="shareCard()">E-Card teilen</button>
+      </aside>
+    </div>
+  </body>
+</html>
