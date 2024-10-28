@@ -14,27 +14,6 @@ Das Projekt ist ein kleines Spaß-Seitenprojekt. Ziel war es, eine e-Card mit zw
 ## Installation
 Um das Projekt lokal auszuführen, klone einfach das Repository:
 
-`
-Hier ist ein README.md, das du für dein Halloween-e-Card-Projekt verwenden kannst. Ich habe das Dokument in Markdown-Format formatiert und die beiden Sprachversionen in ausklappbaren Menüs organisiert.
-
-markdown
-Copy code
-# Halloween e-card
-
-<details>
-<summary>Deutsch</summary>
-
-## Beschreibung
-Das Projekt ist ein kleines Spaß-Seitenprojekt. Ziel war es, eine e-Card mit zwei Seiten zum Umklappen und einem personalisierten Grußtext zu erstellen. Das Projekt ist noch nicht fertig.
-
-## Technologien
-- HTML
-- CSS
-- JavaScript
-
-## Installation
-Um das Projekt lokal auszuführen, klone einfach das Repository:
-
 ```git clone https://github.com/deinbenutzername/halloween-e-card.git```
 
 ## Benutzung
